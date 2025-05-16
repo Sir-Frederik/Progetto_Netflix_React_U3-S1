@@ -5,6 +5,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./css/index.css";
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Gallery title="Trending Now" saga="Looney%20Tunes" />
         <Gallery title="Watch it Again" saga="Harry%20Potter" />
         <Gallery title="New Releases" saga="Dreamworks" />
+        <Footer />
       </Container>
     </>
   );
