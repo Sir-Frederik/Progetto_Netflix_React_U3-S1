@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import logo from "../assets/logo.png";
 
 const MyNav = function () {
   return (
@@ -9,7 +9,7 @@ const MyNav = function () {
       <Container>
         <Navbar.Brand href="#home">
           {" "}
-          <h1>NetFlix </h1>
+          <img src={logo} style={{ width: "100px", height: "55px" }} />
         </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#home">Home</Nav.Link>
