@@ -13,9 +13,9 @@ function App() {
       <Container fluid className="px-4">
         <Header />
 
-        <Gallery title="Trending Now" />
-        <Gallery title="Watch it Again" />
-        <Gallery title="New Releases" />
+        <Gallery title="Trending Now" saga="Looney%20Tunes" />
+        <Gallery title="Watch it Again" saga="Harry%20Potter" />
+        <Gallery title="New Releases" saga="Looney%20Tunes" />
       </Container>
     </>
   );
