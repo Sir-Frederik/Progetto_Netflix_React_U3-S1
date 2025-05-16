@@ -1,5 +1,6 @@
+import { Container } from "react-bootstrap";
 import MyNav from "./components/MyNav";
-import "./css/App.css";
+import "./css/index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
