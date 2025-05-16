@@ -44,7 +44,7 @@ class Gallery extends Component {
       <Container fluid className="px-1">
         <h4> {this.props.title}</h4>
         <Row xs={1} sm={2} lg={4} xl={6} className="mb-4 gx-2">
-          {movies.map((movie) => (
+          {movies.slice(0, 6).map((movie) => (
             <Card key={movie.imdbID} imgSrc={movie.Poster} />
           ))}
         </Row>

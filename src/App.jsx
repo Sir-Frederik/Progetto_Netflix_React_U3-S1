@@ -15,7 +15,7 @@ function App() {
 
         <Gallery title="Trending Now" saga="Looney%20Tunes" />
         <Gallery title="Watch it Again" saga="Harry%20Potter" />
-        <Gallery title="New Releases" saga="Looney%20Tunes" />
+        <Gallery title="New Releases" saga="Dreamworks" />
       </Container>
     </>
   );
