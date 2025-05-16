@@ -18,6 +18,9 @@ footer {
 .navbar-nav {
   font-size: 90%;
 }
+.dropdown-toggle {
+  border-color: white;
+}
 
 #kids {
   color: #f5f5f1;
