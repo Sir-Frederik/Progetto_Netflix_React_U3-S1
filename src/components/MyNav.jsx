@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 
 const MyNav = function () {
   return (
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar bg="dark" data-bs-theme="dark" className="mx-3">
       <Navbar.Brand href="#home">
         {" "}
         <img src={logo} style={{ width: "100px", height: "55px" }} />

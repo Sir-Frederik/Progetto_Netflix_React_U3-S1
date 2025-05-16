@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <MyNav />
-      <Header />
+      <Container fluid className="px-4">
+        <Header />
+      </Container>
     </>
   );
 }
